@@ -1,0 +1,376 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>KomBot</title>
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400,700|Arimo:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="{% static "start_page/dist/css/style.css" %}">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+<body class="is-boxed has-animations">
+    <div class="body-wrap boxed-container">
+        <header class="site-header">
+            <div class="container">
+                <div class="site-header-inner">
+                    <div class="brand header-brand">
+                        <h1 class="m-0">
+                            <a href="javascript:void(0);">
+                                <img src="{% static "start_page/dist/images/logo.svg" %}" alt="Blue logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="hero">
+				<div class="hero-left-decoration is-revealing"></div>
+				<div class="hero-right-decoration is-revealing"></div>
+                <div class="container">
+                    <div class="hero-inner">
+						<div class="hero-copy">
+	                        <h1 class="hero-title mt-0 is-revealing">KomBot</h1>
+	                        <p class="hero-paragraph is-revealing">Ты платишь деньги за занятия, но часто и прокрастинируешь, из-за этого не всегда выполняешь домашку, тебе не хватает времени, чтобы прочитать учебник или досмотреть пропущенные лекции, прорешать задачи. У тебя давно в голове крутится мысль, что нужен человек, который бы тебя пинал и заставлял ботать. Поздравляю! Мы - то, что ты ищешь!</p>
+	                        <p class="hero-cta mb-0 is-revealing">
+								<a class="button button-primary button-shadow" href="https://t.me/niz_che">Пинайте меня</a>
+							</p>
+						</div>
+						<div class="hero-illustration">
+						</div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="features section text-center">
+                <div class="container">
+                    <div class="features-inner section-inner has-top-divider">
+						<div class="features-header text-center">
+							<div class="container-sm">
+								<h2 class="section-title mt-0">Что мы предлагаем?</h2>
+								<p class="section-paragraph mb-0">Мы не готовим тебя к олимпиадам. Мы заставляем тебя в них побеждать! С нами твои траты на курсах или с репетитором перестанут быть бесполезными! Ты больше не будешь чувствовать, что делаешь чего-то недостаточно!</p>
+							</div>
+						</div>
+                        <div class="features-wrap">
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="{% static "start_page/dist/images/feature-icon-02.svg" %}" alt="Feature 02">
+                                    </div>
+                                    <h4 class="feature-title">Отчеты</h4>
+                                    <p class="text-sm">Каждый день ты будешь присылать нам итоги дня и планы на следующий день</p>
+                                </div>
+                            </div>
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="{% static "start_page/dist/images/feature-icon-04.svg" %}" alt="Feature 04">
+                                    </div>
+                                    <h4 class="feature-title">Telegram</h4>
+                                    <p class="text-sm">У тебя будет индивидуальный наставник, следящий за твоим прогрессом
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="{% static "start_page/dist/images/feature-icon-03.svg" %}" alt="Feature 03">
+                                    </div>
+                                    <h4 class="feature-title">Пинки</h4>
+                                    <p class="text-sm">Ты в любой момент можешь связаться с наставником, чтобы он тебя замотивировал</p>
+                                </div>
+                            </div>
+                            <div class="feature is-revealing">
+                                <div class="feature-inner">
+                                    <div class="feature-icon">
+                                        <img src="{% static "start_page/dist/images/feature-icon-01.svg" %}" alt="Feature 01">
+                                    </div>
+                                    <h4 class="feature-title">Единомышленники</h4>
+                                    <p class="text-sm">Ты будешь тусить в среде таких же крутых, как и ты</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--<section class="features-tabs section">
+                <div class="container">
+                    <div class="features-tabs-inner section-inner has-top-divider">
+						<div class="tabs-container">
+							<ul class="tabs-links">
+								<li class="is-revealing">
+									<a href="#tab-1" class="tab-link is-active">
+										<img src="dist/images/tabs-icon-01.svg" alt="Tabs icon 01">
+										<span class="h4 m-0">Amazing features</span>
+									</a>
+								</li>
+								<li class="is-revealing">
+									<a href="#tab-2" class="tab-link">
+										<img src="dist/images/tabs-icon-02.svg" alt="Tabs icon 02">
+										<span class="h4 m-0">Endless possibilities</span>
+									</a>
+								</li>
+								<li class="is-revealing">
+									<a href="#tab-3" class="tab-link">
+										<img src="dist/images/tabs-icon-03.svg" alt="Tabs icon 03">
+										<span class="h4 m-0">Ease of use</span>
+									</a>
+								</li>
+							</ul>
+							<div class="tabs-content">
+								<div id="tab-1" class="tab-panel is-active">
+									<h2>Discover</h2>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									<p class="mb-0">A arcu cursus vitae congue. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.</p>
+								</div>
+								<div id="tab-2" class="tab-panel">
+									<h2>Power of customisation</h2>
+									<p>A arcu cursus vitae congue. Vel elit scelerisque mauris pellentesque pulvinar pellentesque habitant morbi tristique.</p>
+									<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. A arcu cursus vitae congue.</p>
+								</div>
+								<div id="tab-3" class="tab-panel">
+									<h2>Keep it simple</h2>
+									<p>Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium.</p>
+									<p class="mb-0">Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt.</p>
+								</div>
+							</div>
+						</div>
+                    </div>
+                </div>
+            </section>-->
+
+			<!--<section class="testimonials section">
+				<div class="container">
+					<div class="testimonials-inner section-inner">
+						<div class="testimonials-header text-center text-light">
+							<h2 class="section-title mt-0">Отзывы</h2>
+						</div>
+						<div class="testimonials-wrap">
+							<div class="testimonial text-sm is-revealing">
+								<div class="testimonial-inner">
+									<div class="testimonial-main">
+										<div class="testimonial-body">
+											<p>I’ve read a ton of blog posts about how some startups hit this milestone with ease. They came up with an amazing idea that “just clicked”, made!</p>
+										</div>
+									</div>
+									<div class="testimonial-footer">
+										<div class="testimonial-name"><a href="javascript:void(0);">@mikesmith</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial text-sm is-revealing">
+								<div class="testimonial-inner">
+									<div class="testimonial-main">
+										<div class="testimonial-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien. Quisque egestas diam in arcu cursus euismod quis.</p>
+										</div>
+									</div>
+									<div class="testimonial-footer">
+										<div class="testimonial-name"><a href="javascript:void(0);">@mikesmith</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial text-sm is-revealing">
+								<div class="testimonial-inner">
+									<div class="testimonial-main">
+										<div class="testimonial-body">
+											<p>I’ve read a ton of blog posts about how some startups hit this milestone with ease. They came up with an amazing idea that “just clicked”, made!</p>
+										</div>
+									</div>
+									<div class="testimonial-footer">
+										<div class="testimonial-name"><a href="javascript:void(0);">@mikesmith</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial text-sm is-revealing">
+								<div class="testimonial-inner">
+									<div class="testimonial-main">
+										<div class="testimonial-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien. Quisque egestas diam in arcu cursus euismod quis.</p>
+										</div>
+									</div>
+									<div class="testimonial-footer">
+										<div class="testimonial-name"><a href="javascript:void(0);">@mikesmith</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial text-sm is-revealing">
+								<div class="testimonial-inner">
+									<div class="testimonial-main">
+										<div class="testimonial-body">
+											<p>I’ve read a ton of blog posts about how some startups hit this milestone with ease. They came up with an amazing idea that “just clicked”, made!</p>
+										</div>
+									</div>
+									<div class="testimonial-footer">
+										<div class="testimonial-name"><a href="javascript:void(0);">@mikesmith</a></div>
+									</div>
+								</div>
+							</div>
+							<div class="testimonial text-sm is-revealing">
+								<div class="testimonial-inner">
+									<div class="testimonial-main">
+										<div class="testimonial-body">
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eleifend donec pretium vulputate sapien. Quisque egestas diam in arcu cursus euismod quis.</p>
+										</div>
+									</div>
+									<div class="testimonial-footer">
+										<div class="testimonial-name"><a href="javascript:void(0);">@mikesmith</a></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>-->
+
+            <section class="pricing section">
+                <div class="container">
+                    <div class="pricing-inner section-inner">
+                        <h2 class="section-title mt-0 text-center">Тарифы</h2>
+						<div>
+							<div class="pricing-tables-wrap">
+								<div class="pricing-table is-revealing">
+									<div class="pricing-table-inner">
+										<div class="pricing-table-main">
+											<div class="pricing-table-header mb-24 pb-24">
+												<div class="pricing-table-title h4 mt-0 mb-16">Lite</div>
+												<div class="pricing-table-price"><span class="pricing-table-price-currency">₽</span><span class="pricing-table-price-amount h1">500</span>/месяц</div>
+											</div>
+											<ul class="pricing-table-features list-reset text-xs">
+												<li>
+													<span>Личный наставник</span>
+												</li>
+												<li>
+													<span>Система прокторинга</span>
+												</li>
+												<li>
+													<span>Заряд мотивации в любое время</span>
+												</li>
+											</ul>
+										</div>
+										<div class="pricing-table-cta">
+											<a class="button button-secondary button-shadow button-block" href="https://t.me/niz_che">Пинать</a>
+										</div>
+									</div>
+								</div>
+								<div class="pricing-table is-revealing">
+									<div class="pricing-table-inner">
+										<div class="pricing-table-main">
+											<div class="pricing-table-header mb-24 pb-24">
+												<div class="pricing-table-title h4 mt-0 mb-16">Pro</div>
+												<div class="pricing-table-price"><span class="pricing-table-price-currency">₽</span><span class="pricing-table-price-amount h1">500</span>/месяц</div>
+											</div>
+											<ul class="pricing-table-features list-reset text-xs">
+												<li>
+													<span>Личный наставник</span>
+												</li>
+												<li>
+													<span>Система прокторинга</span>
+												</li>
+												<li>
+													<span>Заряд мотивации в любое время</span>
+												</li>
+												<li>
+													<span>Подъем в 5 утра для большей эффективности</span>
+												</li>
+											</ul>
+										</div>
+										<div class="pricing-table-cta">
+											<a class="button button-primary button-shadow button-block" href="https://t.me/niz_che">Пинать</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="pricing-faqs container-sm is-revealing">
+							<h4 class="mt-40 mb-32">FAQs</h4>
+	                        <ul class="accordion">
+	                            <li>
+	                                <div class="accordion-title">
+										<span>Почему в Pro и Lite одна цена?</span>
+										<div class="accordion-icon"></div>
+									</div>
+	                                <div class="accordion-body">
+	                                    <p>По сути разница только в том, чтобы в Pro вас ранше начинали пинать. Делается это установкой наставников-сов и наставников-жаворонков, поэтому никакой особой разницы нет</p>
+	                                </div>
+	                            </li>
+								<li>
+									<div class="accordion-title">
+										<span>Есть ли возможность сэкономить при оплате большего периода времени?</span>
+										<div class="accordion-icon"></div>
+									</div>
+									<div class="accordion-body">
+										<p>Да, при оплате от 3 месяцев сразу цена уменьшается на 10%. Возможно, в дальнейшем будут введены другие тарифы и скидки</p>
+									</div>
+								</li>
+								<li>
+									<div class="accordion-title">
+										<span>Хм, а есть ли бесплатный пробный период?</span>
+										<div class="accordion-icon"></div>
+									</div>
+									<div class="accordion-body">
+										<p>Он не предусмотрен, но вы можете написать нам (контакты внизу) и, возможно мы договоримся</p>
+									</div>
+								</li>
+								<!--<li>
+									<div class="accordion-title">
+										<span>Lorem ipsum dolor sit amet, consectetur</span>
+										<div class="accordion-icon"></div>
+									</div>
+									<div class="accordion-body">
+										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Ut enim ad minim veniam semper. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+									</div>
+								</li>-->
+	                        </ul>
+						</div>
+                    </div>
+                </div>
+            </section>
+
+			<section class="cta section">
+				<div class="container">
+					<div class="cta-inner section-inner is-revealing">
+						<h3 class="section-title mt-0">Все еще не убежден?</h3>
+						<div class="cta-cta">
+							<a class="button button-primary button-shadow" href="{% url 'logic:article' %}">Прочти статью</a>
+						</div>
+					</div>
+				</div>
+			</section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="site-footer-inner">
+                    <div class="brand footer-brand">
+                        <a href="javascript:void(0);">
+                            <img src="{% static "start_page/dist/images/logo.svg" %}" alt="Blue logo">
+                        </a>
+                    </div>
+                    <ul class="footer-links list-reset">
+                        <li>
+                            <a href="https://vk.com/combot_pro">VK паблик</a>
+                        </li>
+                        <li>
+                            <a href="https://t.me/niz_che">Контакты Telegram</a>
+                        </li>
+                        <li>
+                            <a href="https://vk.com/what_is_lovv">Контакты VK</a>
+                        </li>
+                    </ul>
+                    <ul class="footer-social-links list-reset">
+                        
+                    </ul>
+                    <div class="footer-copyright"></div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="{% static "start_page/dist/js/main.min.js" %}"></script>
+</body>
+</html>
