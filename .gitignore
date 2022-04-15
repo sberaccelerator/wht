@@ -1,0 +1,11 @@
+.idea
+venv
+.venv
+*.pyc
+staticfiles
+.env
+db.sqlite3
+getting-started/*
+gettingstarted/config.py
+gettingstarted\config.py
+tempCodeRunnerFile.py
