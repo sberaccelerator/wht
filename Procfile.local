@@ -1,4 +1,2 @@
-release: python manage.py makemigrations
 release: python manage.py migrate
-release: python manage.py createsuperuser --noinput --username testuser
 web: python manage.py runserver 127.0.0.1:8000
