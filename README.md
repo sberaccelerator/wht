@@ -18,13 +18,13 @@ When have time. Do when have time. Deferred reading service.
 ## Deploy to Production 
 
 # TODO list
-## IgorVoron
+### IgorVoron
 - [ ] Finish README.MD
 - [ ] Finish database engineering
 - [ ] Write Docs
-## viktor-strebulaev
+### viktor-strebulaev
 - [ ] Write models 
-## IrinaKlo
+### IrinaKlo
 - [ ] [Reading Mode](https://github.com/sberaccelerator/Reading-Mode)
 
 
