@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 # Static
-#STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') # For all in one staticfiles
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') # For all in one staticfiles
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
