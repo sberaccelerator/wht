@@ -1,10 +1,16 @@
 # WHT
-When have time. Do when have time. Deferred reading service.
+When have time. Do when have time. Сервис отложенного чтения.
 
 # How to run
-## Quickstart
-
-## Run locally using heroku CL
+## Создание виртуального окружения
+```
+    python -m venv .venv
+```
+## Запуск виртуального окружения
+Запускаем сценарий:
+```
+    .venv\Scripts\activate.bat
+```
 ## Установка пакетов
 Далее необходимо на это виртуальное окружение накинуть пакеты. Я для этого в VS Code открываю новую консольку, вижу надпись (.venv), ввожу команду:
 ```
@@ -14,22 +20,8 @@ When have time. Do when have time. Deferred reading service.
 ```
     heroku local -f Procfile.local
 ```
-
-## Deploy to Production 
-
-# TODO list
-### IgorVoron
-- [ ] Finish README.MD
-- [ ] Finish database engineering
-- [ ] Write Docs
-### viktor-strebulaev
-- [ ] Write models 
-### IrinaKlo
-- [ ] [Reading Mode](https://github.com/sberaccelerator/Reading-Mode)
-
-
 # django-telegram-bot
-Django + python-telegram-bot + Celery + Redis + Postgres + Dokku + GitHub Actions template. Production-realy Telegram bot with database, admin panel and a bunch of useful built-in methods.
+Sexy Django + python-telegram-bot + Celery + Redis + Postgres + Dokku + GitHub Actions template. Production-realy Telegram bot with database, admin panel and a bunch of useful built-in methods.
 
 ### Check the example bot that uses the code from Main branch: [t.me/djangotelegrambot](https://t.me/djangotelegrambot)
 
