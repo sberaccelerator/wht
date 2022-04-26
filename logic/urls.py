@@ -1,8 +1,6 @@
 from django.urls import path
 from .views import *
 
-from .views import *
-
 app_name = 'logic'
 urlpatterns = [
     path("", start_page, name="start_page"),

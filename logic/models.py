@@ -1,25 +1,30 @@
 import datetime
-
 import dateparser
 from django.db import models
-
-
-# Create your models here.
 from django.utils import timezone
-
-
-class Greeting(models.Model):
-    when = models.DateTimeField("date created", auto_now_add=True)
-
-
 from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils.translation import gettext_lazy as _
+from django.conf import settings
 
+class Article(models.Model):
+    date_created = models.DateTimeField("дата создания", auto_now_add=True)
+    preview_link = models.URLField("Ссылка на превью")
+    initial_link = models.URLField("Основная ссылка")
+    name = models.CharField("Название")
+
+class Procfile(models.Model):
+    user = models.OneToOneField(settings.AUTH_USER_MODEL, on_delete=models.SET_NULL)
+    
+    
+
+"""
+class Greeting(models.Model):
+    when = models.DateTimeField("date created", auto_now_add=True)
 
 class Rank(models.TextChoices):
-    """Звания, которые могут быть у курируемых"""
+    "Звания, которые могут быть у курируемых"
     ONE = '01', _('Рядовой соботыльник')
     TWO = '02', _('Младший сержант бота')
     THREE = '03', _('Сержант олимпиад')
@@ -37,7 +42,7 @@ class Rank(models.TextChoices):
 
 
 class WeekDay(models.TextChoices):
-    """День недели"""
+    "День недели"
     MONDAY = '1', _('понедельник')
     TUESDAY = '2', _('вторник')
     WEDNESDAY = '3', _('среда')
@@ -48,13 +53,13 @@ class WeekDay(models.TextChoices):
 
 
 class Group(models.TextChoices):
-    """Группа"""
+    "Группа"
     PRO = 'P', _('Pro')
     LITE = 'L', _('Lite')
 
 
 class Curator(models.Model):
-    """
+    "
         Профиль куратора (для того, чтобы не возится с User тут лежит вся нужная инфа)
         user.username - Имя на сайте (не ник в телеге)
         user.first_name - имя
@@ -66,7 +71,7 @@ class Curator(models.Model):
         user.is_superuser - не трогать, на будущее
         user.last_login - не трогать, на будущее
         user.date_joined - дата создания аккаунта
-    """
+    "
 
     chat_id = models.IntegerField('id чата в телеге', null=True, editable=False)
     username = models.CharField('ник', max_length=32)
@@ -150,3 +155,4 @@ class Task(models.Model):
     class Meta:
         verbose_name = 'Задача'
         verbose_name_plural = 'Задачи'
+"""

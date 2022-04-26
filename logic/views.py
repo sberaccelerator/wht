@@ -7,7 +7,6 @@ from .models import Greeting
 
 
 def start_page(request):
-    #return HttpResponse("test")
     return render(request, "pages/start_page.html")
 
 
