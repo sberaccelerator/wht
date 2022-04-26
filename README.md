@@ -35,6 +35,17 @@ Read Wiki page on how to [deploy on Heroku](https://devcenter.heroku.com/categor
 
 [url](https://lucid.app/lucidchart/42f68728-38fe-4d50-bb3c-b9002f541fc2/edit?invitationId=inv_6db45288-b5b2-4ace-839f-f882028227d1)
 
+# MVP specification
+
+- [ ] Хранение постов
+    - [ ] Логотип вкладки
+    - [ ] Ссылка 
+    - [ ] Название вкладки
+- [ ] Добавление ссылки
+- [ ] Удаление поста
+- [ ] Архивация 
+- [ ] Двустраничный сайт (адаптированный под мобилки)
+
 # Technical specification
 
 - [ ] Превращение ссылки в пост (подробнее в проекте [Reading-Mode](https://github.com/sberaccelerator/Reading-Mode))
