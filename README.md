@@ -57,3 +57,5 @@ Read Wiki page on how to [deploy on Heroku](https://devcenter.heroku.com/categor
 - [ ] Прасинг (пока без соцсетей, только rss каналы)
     - [ ] Извлечение в соответствии с планом из [Reading-Mode](https://github.com/sberaccelerator/Reading-Mode)
     - [ ] Парсинг rss лент с сайта
+- [ ] Telegram bot для сохранения статей
+- [ ] Адаптивность под мобилки и работа в режиме PWA
