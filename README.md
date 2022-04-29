@@ -48,6 +48,8 @@ Read Wiki page on how to [deploy on Heroku](https://devcenter.heroku.com/categor
 
 # Technical specification
 
+- [ ] Добавление ютюба
+
 - [ ] Превращение ссылки в пост (подробнее в проекте [Reading-Mode](https://github.com/sberaccelerator/Reading-Mode))
 - [ ] Хранение постов по схеме из [:arrow_up:Creating Database](#CreatingDatabase)
     - [ ] Пост принадлежит каналу
